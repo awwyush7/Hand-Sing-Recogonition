@@ -9,8 +9,8 @@ from tensorflow.keras.utils import to_categorical
 
 
 # Loading Datasets
-train=pd.read_csv(r'Z:\handsign\sign_mnist_train.csv')
-test=pd.read_csv(r'Z:\handsign\sign_mnist_test.csv')
+train=pd.read_csv(r'handsign\sign_mnist_train.csv')
+test=pd.read_csv(r'handsign\sign_mnist_test.csv')
 
 # Dividing Datasets into input and output data
 x_train=train.iloc[:,1:]
